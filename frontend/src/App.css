@@ -1,0 +1,212 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(
+    135deg,
+    #eaf2ff,
+    #f8fbff
+  );
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 500px;
+}
+
+.auth-card h1 {
+  text-align: center;
+  color: #1d4ed8;
+  margin-bottom: 30px;
+}
+
+.auth-card h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+input {
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+button {
+  padding: 13px 20px;
+  border: none;
+  border-radius: 7px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.success {
+  color: #15803d;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error {
+  color: #dc2626;
+  font-weight: bold;
+  text-align: center;
+}
+
+.dashboard {
+  min-height: 100vh;
+  background: #f4f7fb;
+}
+
+.topbar {
+  background: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.topbar h1 {
+  margin: 0;
+  color: #1d4ed8;
+}
+
+.topbar p {
+  margin-bottom: 0;
+}
+
+.topbar button {
+  margin-left: 10px;
+}
+
+.secondary-button {
+  background: #475569;
+}
+
+.secondary-button:hover {
+  background: #334155;
+}
+
+.logout-button {
+  background: #dc2626;
+}
+
+.logout-button:hover {
+  background: #b91c1c;
+}
+
+main {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+main .card {
+  margin-bottom: 25px;
+}
+
+.file-name {
+  color: #475569;
+  font-weight: bold;
+}
+
+.error-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: #fee2e2;
+  color: #b91c1c;
+  border-radius: 7px;
+}
+
+.result-card {
+  text-align: center;
+}
+
+.prediction {
+  background: #eff6ff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.prediction h1 {
+  color: #1d4ed8;
+  font-size: 42px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 14px;
+  border: 1px solid #dbeafe;
+  text-align: left;
+}
+
+th {
+  background: #2563eb;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f8fafc;
+}
+.prediction-result {
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.result-card {
+  background: #f1f7ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 15px;
+  border: 1px solid #dbe7f5;
+}
+
+.result-card p {
+  font-size: 18px;
+  margin: 10px 0;
+}
